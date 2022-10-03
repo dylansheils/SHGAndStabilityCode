@@ -1,0 +1,1 @@
+python examples/wren-example.py --evaluate --train --test-path stiffnessTest.csv --data-path stiffnessTraining.csv --batch-size 32 --weight-decay 0.001 --n-graph 1 --targets stiffness --tasks classification --losses CSE --epoch 50 > stiffnessOutput.txt

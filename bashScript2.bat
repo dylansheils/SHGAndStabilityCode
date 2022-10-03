@@ -1,0 +1,1 @@
+python examples/wren-example.py --train --lr 5e-4 --test-path HFormTesting.csv --data-path HFormTraining.csv --batch-size 64 --n-graph 3 --tasks regression --targets hform --losses L1 --epoch 30 --elem-emb onehot112 --ensemble 3 > outputHForm.txt

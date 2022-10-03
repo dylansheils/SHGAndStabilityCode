@@ -1,0 +1,1 @@
+python examples/wren-example.py --train --lr 5e-4 --test-path MBTExample.csv --data-path finalPhonon.csv --transfer .\models\wren_s-0_t-1\checkpoint-r0.pth.tar --batch-size 16 --n-graph 1 --tasks classification --targets dynamic_stability_phonons --losses CSE --epoch 30 --elem-emb onehot112 --disable-cuda
